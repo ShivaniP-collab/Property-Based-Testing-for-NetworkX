@@ -2,25 +2,20 @@
 This project implements property-based tests in NetworkX using the Hypothesis framework.The target module is networkx.algorithms.core, which implements the k-core decomposition family of algorithms: core number, k core, k shell, k crust, and k truss. 
 
 Algorithms Tested :
--> core_number
--> k_core
--> k_shell
--> k_crust
--> k_truss
+1. core_number
+2. k_core
+3. k_shell
+4. k_crust
+5. k_truss
 
 **Testing Approach**
 Hypothesis is used to automatically generate a wide range of graphs, including:
--> Random graphs (Erdős–Rényi)
--> Complete graphs
--> Path graphs
--> Star graphs
--> Cycle graphs
--> Scale-free graphs (Barabási–Albert)
+Random graphs (Erdős–Rényi), Complete graphs, Path graphs, Star graphs, Cycle graphs, Scale-free graphs (Barabási–Albert)
 
 This ensures coverage across:
--> Sparse vs dense graphs
--> Structured vs random graphs
--> Edge cases and boundary conditions
+1. Sparse vs dense graphs
+2. Structured vs random graphs
+3. Edge cases and boundary conditions
 
 
 **Running the Tests**
